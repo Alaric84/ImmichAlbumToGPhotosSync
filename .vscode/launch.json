@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run immich-google-sync.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/immich-google-sync.py",
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

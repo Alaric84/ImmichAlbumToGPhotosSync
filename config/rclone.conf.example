@@ -1,0 +1,6 @@
+# Example rclone config for Google Photos sync
+[gphotos]
+type = google photos
+client_id = YOUR_CLIENT_ID.apps.googleusercontent.com
+client_secret = YOUR_CLIENT_SECRET
+# token = {...}  # Will be generated after authentication
