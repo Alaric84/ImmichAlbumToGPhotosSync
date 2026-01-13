@@ -20,15 +20,14 @@ Run this command in the project directory:
 docker build -t immich-gphotos-sync .
 ```
 
-## 3. Start the container
-
 
 ## 3. Start the container
 
 Map the config file and pass the .env file:
 
+
 ```bash
-docker run --env-file .env -v $(pwd)/config/rclone.conf:/config/rclone.conf immich-gphotos-sync
+docker run --env-file .env -v $(pwd)/config/rclone.conf:/app/config/rclone.conf immich-gphotos-sync
 ```
 
 This will start the sync process using your configuration and environment variables, with the config file mapped directly from the host.
